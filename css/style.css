@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   margin: 0 0 20px 0;
+  margin-top: 15px;
 }
 
 ::-webkit-selection {
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 171, 255, 0.5);
+  background: rgba(0, 171, 255);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -200,7 +201,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .profile-thumb,
 .fh5co-cover .display-tc .profile-thumb {
   background-size: cover !important;
-  background-position: center center;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
   height: 200px;
@@ -221,83 +222,27 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
 }
 
-#fh5co-features {
+#fh5co-skills {
   background: #00ABFF;
 }
-#fh5co-features h2 {
-  color: #fff;
-}
-#fh5co-features .services-padding {
-  padding: 7em 0;
-}
-#fh5co-features .feature-left {
-  margin-bottom: 40px;
-  float: left;
-}
-@media screen and (max-width: 992px) {
-  #fh5co-features .feature-left {
-    margin-bottom: 30px;
-  }
-}
-#fh5co-features .feature-left .icon {
-  display: table;
-  text-align: center;
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  background: #fff;
-  margin-bottom: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-#fh5co-features .feature-left .icon i {
-  font-size: 50px;
-  display: table-cell;
-  vertical-align: middle;
-  height: 100px;
-  color: #00ABFF !important;
-}
-#fh5co-features .feature-left .feature-copy {
-  width: 100%;
-}
-#fh5co-features .feature-left h3 {
-  font-size: 24px;
-  font-weight: 400;
-  color: #fff;
-}
-#fh5co-features .feature-left p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
-}
-#fh5co-features .feature-left p:last-child {
-  margin-bottom: 0;
-}
-#fh5co-features .feature-left p a {
-  color: #000 !important;
-}
 
-#fh5co-about,
-#fh5co-resume,
-#fh5co-skills,
-#fh5co-started,
-#fh5co-work,
-#fh5co-blog,
-#fh5co-pricing,
-#fh5co-contact {
-  padding: 7em 0;
-  clear: both;
+#fh5co-about{
+  background: #FFFFFF;
+}
+#fh5co-resume{
+  background: #FFFFFF;
+}
+#fh5co-started{
+  background: #00ABFF;
+}
+#fh5co-work{
+  background: #FFFFFF;
 }
 @media screen and (max-width: 768px) {
   #fh5co-about,
   #fh5co-resume,
   #fh5co-skills,
-  #fh5co-started,
-  #fh5co-work,
-  #fh5co-blog,
-  #fh5co-pricing,
-  #fh5co-contact {
+  #fh5co-started {
     padding: 3em 0;
   }
 }
@@ -413,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-heading h2 {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: -52px;
   line-height: 1.5;
   color: #000;
 }
@@ -786,6 +731,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
+  background-color: #FFFFFF;
 }
 #fh5co-started .fh5co-heading {
   margin-bottom: 0;
@@ -800,8 +746,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #fff;
-  color: #00ABFF;
+  background: #00ABFF;
+  color: #fff;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -905,58 +851,6 @@ h1, h2, h3, h4, h5, h6, figure {
   color: black;
 }
 
-#fh5co-consult {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  width: 100%;
-  float: left;
-}
-#fh5co-consult .video, #fh5co-consult .choose {
-  display: inline-block;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-consult .video, #fh5co-consult .choose {
-    width: 100% !important;
-  }
-}
-#fh5co-consult .video {
-  display: table;
-  width: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-consult .video {
-    display: none;
-  }
-}
-#fh5co-consult .choose {
-  width: 50%;
-  padding: 4em;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-consult .choose {
-    width: 100%;
-    padding: 4em 1em;
-  }
-}
-
 .fh5co-video {
   overflow: hidden;
 }
@@ -1034,17 +928,6 @@ input[type="text"] {
 
 .form-group {
   margin-bottom: 30px;
-}
-
-#map {
-  width: 100%;
-  height: 500px;
-  position: relative;
-}
-@media screen and (max-width: 768px) {
-  #map {
-    height: 200px;
-  }
 }
 
 .gototop {
