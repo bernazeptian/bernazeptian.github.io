@@ -134,6 +134,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-transform: rotate(-5deg);
   -o-transform: rotate(-5deg);
   transform: rotate(-5deg);
+  margin-left: 250px;
 }
 #fh5co-header .display-tc h1 span,
 .fh5co-cover .display-tc h1 span {
@@ -191,6 +192,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc h3,
 .fh5co-cover .display-tc h3 {
   font-size: 16px;
+  margin-left: 250px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h3,
@@ -203,7 +205,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover !important;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  position: relative;
+  position: absolute;
   height: 200px;
   width: 200px;
   margin: 0 auto;
@@ -293,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-social-icons {
-  margin: 0;
+  margin: 0px 0px 0px 250px;
   padding: 0;
 }
 .fh5co-social-icons li {
